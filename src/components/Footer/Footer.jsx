@@ -2,9 +2,10 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
+        
           <footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
-  <aside>
+
+         <aside>
     <svg
       width="50"
       height="50"
@@ -42,8 +43,10 @@ const Footer = () => {
     <a className="link link-hover">Privacy policy</a>
     <a className="link link-hover">Cookie policy</a>
   </nav>
-</footer>
-        </div>
+    
+      </footer>
+
+        
     );
 };
 
